@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fluxinfotech/vishal-sahyadri-v1/static/css/main.caa1f947.css",
+    "main.js": "/fluxinfotech/vishal-sahyadri-v1/static/js/main.3f6ce2fc.js",
+    "static/media/TiroDevanagariMarathi-Regular.ttf": "/fluxinfotech/vishal-sahyadri-v1/static/media/TiroDevanagariMarathi-Regular.44d9595e14b6149cfeed.ttf",
+    "index.html": "/fluxinfotech/vishal-sahyadri-v1/index.html",
+    "main.caa1f947.css.map": "/fluxinfotech/vishal-sahyadri-v1/static/css/main.caa1f947.css.map",
+    "main.3f6ce2fc.js.map": "/fluxinfotech/vishal-sahyadri-v1/static/js/main.3f6ce2fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa1f947.css",
+    "static/js/main.3f6ce2fc.js"
+  ]
+}
