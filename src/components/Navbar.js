@@ -34,47 +34,48 @@ function Navbar() {
       <nav>
         <div className="navbar">
           <i  className='bx bx-menu' onClick={handleMenuOpen}></i>
-          <div className="logo"><a href="#">विशाल सह्याद्री नगर</a></div>
+          <div className="logo"><a href="/#">विशाल सह्याद्री नगर</a></div>
           <div className={`nav-links ${isOpen ? 'open' : ''}`} ref={navLinksRef}>
             <div className="sidebar-logo">
               <span className="logo-name">सह्याद्री नगर</span>
               <i className='bx bx-x' onClick={handleMenuClose}></i>
             </div>
             <ul className="links">
-              <li><a href="#">मुख्यपृष्ठ</a></li>                            
+              <li><a href="/home">मुख्यपृष्ठ</a></li> 
+              <li><a href="/about">इतिहास</a></li>                           
               <li>
-                <a href="#" >ठराव</a>
+                <a href="/#" >ठराव</a>
                 <i className='bx bxs-chevron-down htmlcss-arrow arrow  ' onClick={handleSubMenuClick}></i>
                 <ul  className={`${isSubMenuOpen ? 'htmlCss-sub-menu sub-menu show1' : 'show1'}`} >
-                  <li><a href="#">ए.जी.एम</a></li>
-                  {/* <li><a href="#">Login Forms</a></li> */}
-                  {/* <li><a href="#">Card Design</a></li> */}
+                  <li><a href="/#">ए.जी.एम</a></li>
+                  {/* <li><a href="/#">Login Forms</a></li> */}
+                  {/* <li><a href="/#">Card Design</a></li> */}
                   <li className="more">
-                    <span><a href="#">पुनर्विकास</a>
+                    <span><a href="/#">पुनर्विकास</a>
                       <i className='bx bxs-chevron-right arrow more-arrow' onClick={handleMoreClick}></i>
                     </span>
                     <ul className={`${moreOpen ? 'more-sub-menu' : 'more-sub-menu sub-menu'}`}>
-                      <li><a href="#">स्ट्रक्चरल ऑडिट</a></li>
-                      {/* <li><a href="#">Pre-loader</a></li> */}
-                      {/* <li><a href="#">Glassmorphism</a></li> */}
+                      <li><a href="/#">स्ट्रक्चरल ऑडिट</a></li>
+                      {/* <li><a href="/#">Pre-loader</a></li> */}
+                      {/* <li><a href="/#">Glassmorphism</a></li> */}
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">उपक्रम</a></li>
-              <li><a href="#">इतिहास</a></li>
+              <li><a href="/#">उपक्रम</a></li>
+              
               {/* <li>
-                <a href="#">JAVASCRIPT</a>
+                <a href="/#">JAVASCRIPT</a>
                 <i className='bx bxs-chevron-down js-arrow arrow '></i>
                 <ul className="js-sub-menu sub-menu">
-                  <li><a href="#">Dynamic Clock</a></li>
-                  <li><a href="#">Form Validation</a></li>
-                  <li><a href="#">Card Slider</a></li>
-                  <li><a href="#">Complete Website</a></li>
+                  <li><a href="/#">Dynamic Clock</a></li>
+                  <li><a href="/#">Form Validation</a></li>
+                  <li><a href="/#">Card Slider</a></li>
+                  <li><a href="/#">Complete Website</a></li>
                 </ul>
               </li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">CONTACT US</a></li> */}
+              <li><a href="/#">ABOUT US</a></li>
+              <li><a href="/#">CONTACT US</a></li> */}
             </ul>
           </div>
           <div className="search-box">

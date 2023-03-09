@@ -1,10 +1,10 @@
+import { Typography } from '@mui/material'
 import React from 'react'
-import Navbar from '../components/Navbar'
 
 function Home() {
   return (
     <>
-    <Navbar/>
+    <Typography sx={{padding:8}}>Home</Typography>
     </>
   )
 }
